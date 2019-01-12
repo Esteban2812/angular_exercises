@@ -1,0 +1,9 @@
+<p>
+  palabras works!
+</p>
+
+<select [size]="palabras.length">
+  <option *ngFor="let palabra of palabras" [value]="palabra">
+    {{palabra}}
+  </option>
+</select>
